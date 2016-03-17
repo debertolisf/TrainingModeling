@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gencpp
+Bundle-SymbolicName: com.tad.ecore.gencpp
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tad.ecore.gencpp.Activator
+Bundle-Vendor: TAD
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.xtend.lib;bundle-version="2.9.2",
+ org.eclipse.emf.ecore;bundle-version="2.11.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
